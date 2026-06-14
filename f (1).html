@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أنت غير متصل - سوريا تكنولوجي</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            background: #0a0a0a;
+            color: #ccc;
+            font-family: 'Cairo', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #d4af37;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 25px;
+            color: #aaa;
+        }
+        .btn {
+            background: #d4af37;
+            color: #000;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            font-family: 'Cairo', sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #fff;
+            box-shadow: 0 0 15px rgba(212,175,55,0.5);
+        }
+        .link {
+            color: #d4af37;
+            text-decoration: underline;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>📡 لا يوجد اتصال بالإنترنت</h1>
+    <p>يبدو أنك غير متصل حالياً. يمكنك تصفح المنتجات التي تم تحميلها مسبقاً عند العودة للصفحة الرئيسية.</p>
+    <button class="btn" onclick="location.reload()">إعادة المحاولة</button>
+    <a href="/index.html" class="btn" style="background:transparent; border:1px solid #d4af37; color:#d4af37;">الصفحة الرئيسية</a>
+</body>
+</html>
